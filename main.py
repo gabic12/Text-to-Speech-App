@@ -2,10 +2,11 @@ import requests
 import pypdf
 
 API_KEY = "8a024506cfa948edab518d0d7c93581d"
+FILE_PATH = "duck.pdf"
 
 #Read the contents of the PDF file
 file_content = ''
-file_reader = pypdf.PdfReader("duck.pdf")
+file_reader = pypdf.PdfReader(FILE_PATH)
 
 for page in range(len(file_reader.pages)):
     file_content += file_reader.pages[page].extract_text(extraction_mode="plain")
