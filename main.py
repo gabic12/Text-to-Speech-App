@@ -1,7 +1,7 @@
 import requests
 import pypdf
 
-API_KEY = "8a024506cfa948edab518d0d7c93581d"
+API_KEY = "Your API key here"
 FILE_PATH = "duck.pdf"
 
 #Read the contents of the PDF file
