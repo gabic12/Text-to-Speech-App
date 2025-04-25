@@ -2,4 +2,4 @@ This application will convert the text from a PDF file into an audio file. It wa
 
 This app calls the Voice RSS API (https://www.voicerss.org/api/). The API has a free plan, but will require a API Key to be registered and to be populated in the in the sorce code of the app (API_KEY variable).
 
-Run main.py to start the app. By default, it will use the duck.pdf file and the output will be saved under the name audio_file.mp3. The file can be changed by modifing the FILE_PATH variable.
+To run the app, execute main.py. By default, it processes the file duck.pdf and saves the resulting audio as audio_file.mp3. You can change the input file by updating the FILE_PATH variable in the code.
